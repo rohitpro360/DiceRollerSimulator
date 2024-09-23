@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    .mainContent {
+        display: grid;
+        justify-content: center;
+        
+
+    }
+
+    #roller {
+        margin-top: 80px;
+        height: 10rem;
+        width: 10rem;
+        border: 1px solid black;
+        border-radius: 30px;
+        box-shadow: 2px 3px 2px 1px black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+    #roll {
+        position: relative;
+        top: 30px;
+    }
+    #roller #dd{
+        text-align: center;
+    }
+    #roller #dd i{
+        font-size: 27px;
+    }
+
+</style>
+
+<body>
+    <div class="mainContent">
+        <div id="roller">
+            <p id="dd"></p>
+        </div>
+        <br>
+        <button id="roll">
+            <b>ROLL</b>
+        </button>
+        <script src="./DiceRoller.js">
+        </script>
+    </div>
+</body>
+
+</html>
